@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    <bean id="taskBeanTest" class="com.jd.joyqueue.task.TaskBeanTest"-->
+    <!--        init-method="start">-->
+    <!--        <property name="prop" value="aaa" />-->
+    <!--    </bean>-->
+
+    <bean id="taskDispatcher" class="com.demo.task.TaskDispatcher"
+          init-method="start" destroy-method="stop">
+        <property name="registry" ref="registry"/>
+        <property name="taskDao" ref="taskDao"/>
+        <property name="concurrency" value="${task.concurrency}"/>
+        <property name="interval" value="${task.interval}"/>
+        <property name="application" value="${registry.root}"/>
+    </bean>
+
+    <bean id="taskJobService" class="com.demo.task.TaskJob"
+          init-method="start" destroy-method="stop">
+        <property name="registry" ref="registry" />
+        <property name="taskDao" ref="taskDao"/>
+        <property name="configDao" ref="configDao"/>
+        <property name="application" value="${registry.root}"/>
+        <property name="configGroup" value="${task.configGroup}"/>
+        <property name="concurrency" value="${task.concurrency}"/>
+    </bean>
+
+</beans>
