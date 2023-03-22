@@ -12,6 +12,7 @@
         <module>task-api</module>
         <module>task-core</module>
         <module>task-run</module>
+        <module>mq-server-demo</module>
     </modules>
 
     <properties>
