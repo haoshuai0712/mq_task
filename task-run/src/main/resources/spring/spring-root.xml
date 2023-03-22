@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- property place holder -->
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:application.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="registryFactory" class="com.jd.joyqueue.registry.RegistryFactory" init-method="create">
+        <constructor-arg value="${registry.url}"/>
+    </bean>
+    <bean id="registry" factory-bean="registryFactory" factory-method="create" />
+
+    <import resource="spring-dao.xml"/>
+    <import resource="spring-task.xml"/>
+</beans>
