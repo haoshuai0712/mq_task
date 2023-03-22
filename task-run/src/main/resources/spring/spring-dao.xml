@@ -10,11 +10,11 @@
         <property name="password" value="${jdbc.password}"/>
     </bean>
 
-    <bean id="taskDao" class="com.jd.joyqueue.task.dao.TaskDao">
+    <bean id="taskDao" class="com.demo.task.dao.TaskDao">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="configDao" class="com.jd.joyqueue.task.dao.ConfigDao">
+    <bean id="configDao" class="com.demo.task.dao.ConfigDao">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 

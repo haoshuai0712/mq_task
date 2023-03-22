@@ -1,8 +1,8 @@
 package com.demo.task;
 
 import com.google.common.base.Strings;
-import com.jd.joyqueue.model.Exceptions;
-import com.jd.joyqueue.model.TaskException;
+import com.demo.model.Exceptions;
+import com.demo.model.TaskException;
 import com.jd.joyqueue.model.domain.Task;
 import com.jd.joyqueue.registry.Registry;
 import com.jd.joyqueue.registry.listener.ConnectionEvent;

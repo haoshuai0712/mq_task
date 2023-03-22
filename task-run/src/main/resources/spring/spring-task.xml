@@ -8,7 +8,7 @@
     <!--        <property name="prop" value="aaa" />-->
     <!--    </bean>-->
 
-    <bean id="taskDispatcher" class="com.jd.joyqueue.task.TaskDispatcher"
+    <bean id="taskDispatcher" class="com.demo.task.TaskDispatcher"
           init-method="start" destroy-method="stop">
         <property name="registry" ref="registry"/>
         <property name="taskDao" ref="taskDao"/>
@@ -17,7 +17,7 @@
         <property name="application" value="${registry.root}"/>
     </bean>
 
-    <bean id="taskJobService" class="com.jd.joyqueue.task.TaskJob"
+    <bean id="taskJobService" class="com.demo.task.TaskJob"
           init-method="start" destroy-method="stop">
         <property name="registry" ref="registry" />
         <property name="taskDao" ref="taskDao"/>

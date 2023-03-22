@@ -1,7 +1,7 @@
 package com.demo.task;
 
 import com.google.common.base.Strings;
-import com.jd.joyqueue.model.RepositoryException;
+import com.demo.model.RepositoryException;
 import com.jd.joyqueue.model.domain.Task;
 import com.jd.joyqueue.registry.Registry;
 import com.jd.joyqueue.registry.listener.ChildrenEvent;
@@ -9,8 +9,8 @@ import com.jd.joyqueue.registry.listener.ChildrenListener;
 import com.jd.joyqueue.registry.listener.LeaderEvent;
 import com.jd.joyqueue.registry.listener.LeaderListener;
 import com.jd.joyqueue.registry.util.Path;
-import com.jd.joyqueue.task.algo.DispatchAlgorithm;
-import com.jd.joyqueue.task.dao.TaskDao;
+import com.demo.task.algo.DispatchAlgorithm;
+import com.demo.task.dao.TaskDao;
 import com.jd.laf.extension.ExtensionManager;
 import org.joyqueue.toolkit.concurrent.EventBus;
 import org.joyqueue.toolkit.concurrent.EventListener;
@@ -397,17 +397,17 @@ public class TaskDispatcher extends Service {
         }
     }
 
-    private com.jd.joyqueue.task.algo.DispatchAlgorithm getDispatchAlgorithm(String name) {
+    private com.demo.task.algo.DispatchAlgorithm getDispatchAlgorithm(String name) {
 
         if (Strings.isNullOrEmpty(name)) {
             logger.warn("The DispatchAlgorithm's type can not be null or empty!");
             return null;
         }
 
-        Iterable<com.jd.joyqueue.task.algo.DispatchAlgorithm> collectors = ExtensionManager.getOrLoadExtensions(com.jd.joyqueue.task.algo.DispatchAlgorithm.class);
+        Iterable<com.demo.task.algo.DispatchAlgorithm> collectors = ExtensionManager.getOrLoadExtensions(com.demo.task.algo.DispatchAlgorithm.class);
         Iterator<DispatchAlgorithm> it = collectors.iterator();
         while (it.hasNext()) {
-            com.jd.joyqueue.task.algo.DispatchAlgorithm executor = it.next();
+            com.demo.task.algo.DispatchAlgorithm executor = it.next();
 
             if (name.equalsIgnoreCase(executor.getType().toString())) {
                 return executor;

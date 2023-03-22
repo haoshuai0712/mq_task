@@ -1,6 +1,6 @@
 package com.demo.task.dao;
 
-import com.jd.joyqueue.model.UpdateTaskException;
+import com.demo.model.UpdateTaskException;
 import com.jd.joyqueue.model.domain.Task;
 import org.joyqueue.model.domain.Identity;
 import org.joyqueue.toolkit.db.DaoUtil;
