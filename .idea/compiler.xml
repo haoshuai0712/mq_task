@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="example-spring-boot-starter" />
+        <module name="web-application" />
+        <module name="task-core" />
+        <module name="example-spring-boot-starter-test" />
+        <module name="task-api" />
+        <module name="h2db-spring-boot-starter" />
+        <module name="web-springboot-starter" />
+        <module name="mq-server-demo" />
+        <module name="task-run" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-spring-boot-starter" target="1.8" />
+      <module name="example-spring-boot-starter-test" target="1.8" />
+      <module name="h2db-spring-boot-starter" target="1.8" />
+      <module name="mq-server-demo" target="1.8" />
+      <module name="mq-web-demo" target="1.8" />
+      <module name="mq_task" target="1.8" />
+      <module name="springboot-demo" target="1.8" />
+      <module name="task-api" target="1.8" />
+      <module name="task-core" target="1.8" />
+      <module name="task-run" target="1.8" />
+      <module name="web-application" target="1.8" />
+      <module name="web-springboot-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

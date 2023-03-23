@@ -13,6 +13,8 @@
         <module>task-core</module>
         <module>task-run</module>
         <module>mq-server-demo</module>
+        <module>mq-web-demo</module>
+        <module>springboot-demo</module>
     </modules>
 
     <properties>

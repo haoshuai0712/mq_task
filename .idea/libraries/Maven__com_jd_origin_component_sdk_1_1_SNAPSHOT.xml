@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jd.origin:component-sdk:1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jd/origin/component-sdk/1.1-SNAPSHOT/component-sdk-1.1-20200928.064754-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jd/origin/component-sdk/1.1-SNAPSHOT/component-sdk-1.1-20200928.064754-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jd/origin/component-sdk/1.1-SNAPSHOT/component-sdk-1.1-20200928.064754-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

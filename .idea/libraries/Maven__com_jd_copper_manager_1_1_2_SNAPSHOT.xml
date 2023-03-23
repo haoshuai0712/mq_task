@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jd:copper-manager:1.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jd/copper-manager/1.1.2-SNAPSHOT/copper-manager-1.1.2-20220316.101217-19.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jd/copper-manager/1.1.2-SNAPSHOT/copper-manager-1.1.2-20220316.101217-19-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jd/copper-manager/1.1.2-SNAPSHOT/copper-manager-1.1.2-20220316.101217-19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.joyqueue:joyqueue-toolkit:4.2.9.RC1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/joyqueue/joyqueue-toolkit/4.2.9.RC1/joyqueue-toolkit-4.2.9.RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/joyqueue/joyqueue-toolkit/4.2.9.RC1/joyqueue-toolkit-4.2.9.RC1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/joyqueue/joyqueue-toolkit/4.2.9.RC1/joyqueue-toolkit-4.2.9.RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

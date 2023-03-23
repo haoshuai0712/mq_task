@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/example-spring-boot-starter/example-spring-boot-starter.iml" filepath="$PROJECT_DIR$/springboot-demo/example-spring-boot-starter/example-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/example-spring-boot-starter-test/example-spring-boot-starter-test.iml" filepath="$PROJECT_DIR$/springboot-demo/example-spring-boot-starter-test/example-spring-boot-starter-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/h2db-spring-boot-starter/h2db-spring-boot-starter.iml" filepath="$PROJECT_DIR$/mq-web-demo/h2db-spring-boot-starter/h2db-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-server-demo/mq-server-demo.iml" filepath="$PROJECT_DIR$/mq-server-demo/mq-server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/mq-web-demo.iml" filepath="$PROJECT_DIR$/mq-web-demo/mq-web-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mq_task.iml" filepath="$PROJECT_DIR$/.idea/mq_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-api/task-api.iml" filepath="$PROJECT_DIR$/task-api/task-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-core/task-core.iml" filepath="$PROJECT_DIR$/task-core/task-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-run/task-run.iml" filepath="$PROJECT_DIR$/task-run/task-run.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-application/web-application.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-application/web-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-springboot-starter/web-springboot-starter.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-springboot-starter/web-springboot-starter.iml" />
+    </modules>
+  </component>
+</project>
