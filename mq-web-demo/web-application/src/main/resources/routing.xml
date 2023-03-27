@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vertx>
+    <routes>
+        <route name="static_get" type="GET" handlers="static"/>
+
+<!--        <route name="put" type="PUT" route="true"-->
+<!--               consumers="application/json;charset=UTF-8" produces="application/json;charset=UTF-8"-->
+<!--               handlers="cookie session body JmqSsoLogin getLoginUser"/>-->
+
+<!--        <route inherit="get"-->
+<!--               path="/v1/application/findAll" handlers="application#findAll render"-->
+<!--               errors="error"/>-->
+    </routes>
+
+    <messages>
+        <route type="MSG" path="audit_log" handlers="auditLogMessage"/>
+        <route type="OPER" path="oper_log" handlers="operLogMessage"/>
+
+    </messages>
+</vertx>
