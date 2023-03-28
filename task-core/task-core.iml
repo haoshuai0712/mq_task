@@ -32,7 +32,8 @@
     <orderEntry type="library" name="Maven: com.sun.jdmk:jmxtools:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jmx:jmxri:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.2.Final" level="project" />
     <orderEntry type="library" name="Maven: com.jd:copper-manager:1.1.2-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.4.2" level="project" />

@@ -19,7 +19,6 @@
     <properties>
         <spring.version>5.1.2.RELEASE</spring.version>
         <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
-        <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencyManagement>
@@ -52,13 +51,7 @@
                 <scope>test</scope>
             </dependency>
 
-            <!--     单测       -->
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>${junit.version}</version>
-                <scope>test</scope>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
