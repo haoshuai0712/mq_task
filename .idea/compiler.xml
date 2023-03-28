@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="example-spring-boot-starter" />
+        <module name="web-data-repository" />
         <module name="web-application" />
+        <module name="web-data-service" />
         <module name="task-core" />
         <module name="example-spring-boot-starter-test" />
         <module name="task-api" />
@@ -15,6 +17,7 @@
         <module name="web-springboot-starter" />
         <module name="mq-server-demo" />
         <module name="task-run" />
+        <module name="web-data-model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +32,9 @@
       <module name="task-core" target="1.8" />
       <module name="task-run" target="1.8" />
       <module name="web-application" target="1.8" />
+      <module name="web-data-model" target="1.8" />
+      <module name="web-data-repository" target="1.8" />
+      <module name="web-data-service" target="1.8" />
       <module name="web-springboot-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -48,7 +48,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:5.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.joyqueue:joyqueue-network:4.2.9.RC1" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.46.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.27.Final" level="project" />
     <orderEntry type="library" name="Maven: com.jd.origin:component-sdk:1.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.6" level="project" />
   </component>

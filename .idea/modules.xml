@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/task-core/task-core.iml" filepath="$PROJECT_DIR$/task-core/task-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/task-run/task-run.iml" filepath="$PROJECT_DIR$/task-run/task-run.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-application/web-application.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-application/web-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-data-model/web-data-model.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-data-model/web-data-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-data-repository/web-data-repository.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-data-repository/web-data-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-data-service/web-data-service.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-data-service/web-data-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-web-demo/web-springboot-starter/web-springboot-starter.iml" filepath="$PROJECT_DIR$/mq-web-demo/web-springboot-starter/web-springboot-starter.iml" />
     </modules>
   </component>

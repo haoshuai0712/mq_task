@@ -16,6 +16,9 @@
         <module>web-application</module>
         <module>web-springboot-starter</module>
         <module>h2db-spring-boot-starter</module>
+        <module>web-data-repository</module>
+        <module>web-data-model</module>
+        <module>web-data-service</module>
     </modules>
 
     <properties>
@@ -26,6 +29,7 @@
         <commons-lang3.version>3.8.1</commons-lang3.version>
         <aspectj.version>1.9.2</aspectj.version>
         <slf4j.version>1.7.25</slf4j.version>
+        <mybatis.version>3.4.6</mybatis.version>
     </properties>
 
     <dependencyManagement>
@@ -69,6 +73,17 @@
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
                 <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- Mysql -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.41</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
