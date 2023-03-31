@@ -15,16 +15,23 @@
         <module>mq-server-demo</module>
         <module>mq-web-demo</module>
         <module>springboot-demo</module>
+        <module>mq_server</module>
     </modules>
 
     <properties>
         <spring.version>5.0.9.RELEASE</spring.version>
         <junit.version>4.13.1</junit.version>
         <mockito3.version>3.8.0</mockito3.version>
+        <netty.version>4.1.27.Final</netty.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>

@@ -1,0 +1,15 @@
+Netty是一个基于Java NIO（Non-blocking I/O）的网络编程框架，它提供了高性能、可扩展的网络编程能力。
+Netty的设计目标是为了简化网络编程的复杂度，提供易于使用的API和灵活的扩展性，支持各种协议(自定义)和网络应用场景，
+如HTTP、WebSocket、TCP、UDP等，可以用于构建高性能、可靠的网络应用程序。Netty提供了丰富的功能和组件，
+如事件驱动、异步通信、线程池、高效的序列化和反序列化、SSL/TLS支持等。开发者可以通过以下步骤来支持自定义协议：
+
+定义协议：开发者需要定义自己的协议格式，包括消息头、消息体等内容。
+
+编解码器：开发者需要实现编解码器来将协议格式转换成Java对象，或将Java对象转换成协议格式。Netty提供了丰富的编解码器组件，
+如ByteToMessageCodec、MessageToByteCodec等，可以帮助开发者实现编解码器。
+
+处理器：开发者需要实现处理器来处理服务端接收到的请求和客户端发送的请求。Netty提供了ChannelInboundHandlerAdapter
+和ChannelOutboundHandlerAdapter等处理器组件，可以帮助开发者实现处理器。
+
+Bootstrap配置：开发者需要使用Bootstrap或ServerBootstrap来配置Netty的启动参数，如端口、线程数等。
+

@@ -5,9 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-demo/example-spring-boot-starter/example-spring-boot-starter.iml" filepath="$PROJECT_DIR$/springboot-demo/example-spring-boot-starter/example-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-demo/example-spring-boot-starter-test/example-spring-boot-starter-test.iml" filepath="$PROJECT_DIR$/springboot-demo/example-spring-boot-starter-test/example-spring-boot-starter-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-web-demo/h2db-spring-boot-starter/h2db-spring-boot-starter.iml" filepath="$PROJECT_DIR$/mq-web-demo/h2db-spring-boot-starter/h2db-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_server/mq-broker-core/mq-broker-core.iml" filepath="$PROJECT_DIR$/mq_server/mq-broker-core/mq-broker-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-server-demo/mq-server-demo.iml" filepath="$PROJECT_DIR$/mq-server-demo/mq-server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_server/mq-server-runtime/mq-server-runtime.iml" filepath="$PROJECT_DIR$/mq_server/mq-server-runtime/mq-server-runtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-web-demo/mq-web-demo.iml" filepath="$PROJECT_DIR$/mq-web-demo/mq-web-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq_server/mq_server.iml" filepath="$PROJECT_DIR$/mq_server/mq_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mq_task.iml" filepath="$PROJECT_DIR$/.idea/mq_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-server-demo/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/mq-server-demo/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/task-api/task-api.iml" filepath="$PROJECT_DIR$/task-api/task-api.iml" />
