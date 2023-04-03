@@ -36,15 +36,17 @@ public class ClientTest {
             ChannelFuture future = bootstrap.connect().sync();
             System.out.println("Connected to server: " + future.channel().remoteAddress());
 
-            String message = "Netty test";
-            ByteBuf encoded = future.channel().alloc().buffer();
-            byte[] contentBytes = message.getBytes(StandardCharsets.UTF_8);
-            System.out.println(contentBytes.length);
-            encoded.writeInt(contentBytes.length);
-            encoded.writeBytes(contentBytes);
-            future.channel().write(encoded);
-            future.channel().flush();
-            System.out.println("Sent message: " + message);
+            for (int i=0; i<5; i++) {
+                String message = "Netty test" + i;
+                ByteBuf encoded = future.channel().alloc().buffer();
+                byte[] contentBytes = message.getBytes(StandardCharsets.UTF_8);
+//                System.out.println(contentBytes.length);
+                encoded.writeInt(contentBytes.length);
+                encoded.writeBytes(contentBytes);
+                future.channel().write(encoded);
+                future.channel().flush();
+                System.out.println("Sent message: " + message);
+            }
 
             // 等待响应
             future.channel().closeFuture().sync();

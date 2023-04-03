@@ -15,7 +15,7 @@ public class ServerTestHandler extends ChannelInboundHandlerAdapter {
         String response = "Hello, " + message;
         // 返回响应
         ByteBuf encoded = ctx.alloc().buffer();
-        encoded.writeInt(response.getBytes(StandardCharsets.UTF_8).length);
+//        encoded.writeInt(response.getBytes(StandardCharsets.UTF_8).length);
         encoded.writeBytes(response.getBytes(StandardCharsets.UTF_8));
         ctx.write(encoded);
         ctx.flush();
