@@ -11,6 +11,7 @@
         <module name="netty-demo" />
         <module name="task-core" />
         <module name="example-spring-boot-starter-test" />
+        <module name="kafka-demo" />
         <module name="task-api" />
         <module name="mq-server-runtime" />
         <module name="example-spring-boot-starter" />
@@ -26,6 +27,7 @@
       <module name="example-spring-boot-starter" target="1.8" />
       <module name="example-spring-boot-starter-test" target="1.8" />
       <module name="h2db-spring-boot-starter" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
       <module name="mq-broker-core" target="1.8" />
       <module name="mq-server-demo" target="1.8" />
       <module name="mq-server-runtime" target="1.8" />
